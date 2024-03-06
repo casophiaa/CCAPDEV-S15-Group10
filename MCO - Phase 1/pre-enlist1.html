@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+    <title>Lasallian EduConnect Hub</title>
+    <link rel="stylesheet" href="styles-viewpost.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="main-script.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- Changed this whole div -->
+        <div class="header-container">
+            <div class="logo-group">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Website Logo">
+                </div>
+                <div class="name-logo">
+                    <img src="images/Name-logo.png" alt="Name Logo">
+                </div>
+            </div>
+            <div class="login">
+                <button class="login-button" id="loginButton" onclick="window.location.href='login.html'">Login</button>
+            </div>
+        </div>
+        <!-- Edits end here -->
+    </header>
+
+        <div class="sidebar">
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home"></i> Home </a></li>
+                <li><a id="accountButton" href="profile.html"><i class="fa fa-user"></i> Account </a></li>
+
+                <li class="divider"><span></span></li>
+
+                <li><a href="pre-enlist.html"><i class="fa fa-list"></i> Pre-Enlistment Community </a></li>
+                <li><a href="enlistment.html"><i class="fa fa-list"></i> Enlistment Community </a></li>
+                <li><a href="student-concerns.html"><i class="fa fa-comments"></i> Student Concern Threads </a></li>
+
+                <li class="divider"><span></span></li>
+
+                <li><a href="about.html"><i class="fa fa-address-card"></i> About us </a></li>
+                <li><a href="contact.html"><i class="fa fa-phone"></i> Contact us </a></li>
+            </ul>
+        </div>
+
+        <div class="post-container">
+            <!-- Post -->
+                <div class="post">
+                    <div class="post-header">
+                        <h2>Flowchart</h2>
+                    </div>
+                    <div class="post-content">
+                        <p>Hello! I'm from CCS, where can I see my flowchart specifically for IS students? tyia:></p>
+                        <div class="post-tag"><i class="fa fa-tag"></i> Pre-enlistment</div>
+                    </div>
+                    <div class="post-actions">
+                        <div class="vote-container">
+                            <upvote id="upvoteBtn" class="fa fa-arrow-up"> 2</upvote>
+                        </div>
+                        <div class="vote-container">
+                            <downvote class="fa fa-arrow-down"> 0</downvote>
+                        </div>
+                        <div class="vote-container">
+                            <comment class="fa fa-comment"> 2</comment>
+                        </div>
+                        <div class="vote-container">
+                            <share class="fa fa-share"> 1</share>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="comments-section" id="commentsSection1">
+                <!-- Comment 1 -->
+                <h3> Comments </h3>
+                <div class="comment">
+                    <div class="comment-header">
+                        <div class="user-info">
+                            <img src="images/John.jpeg" alt="User Avatar" class="user-avatar">
+                            <span class="username">John Smith</span>
+                        </div>
+                        <span class="comment-time">3 days ago</span>
+                    </div>
+                    <p>I believe you can find the flowchart on the usg's official website.</p>
+                </div>
+            </div>
+
+            <div class="comments-section"id="commentsSection2">
+                <!-- Comment 2 -->
+                <div class="comment">
+                    <div class="comment-header">
+                        <div class="user-info">
+                            <img src="images/anya.jpeg" alt="User Avatar" class="user-avatar">
+                            <span class="username">Anya Forger</span>
+                        </div>
+                        <span class="comment-time">1 min ago</span>
+                    </div>
+                    <p>Hello! you can find your flowchart for CCS here 
+                        <a href="https://sites.google.com/view/oneccs/student-services#h.ixgalujeaxb8">https://sites.google.com/view/oneccs/student-services#h.ixgalujeaxb8</a>
+                    </p>
+                </div>
+            </div>
+
+            <button class="add-comment-btn" onclick="showCommentBox()">Add Comment</button>
+
+            <div id="commentBox" style="display:none;">
+                <textarea id="newComment" placeholder="Type your comment here"></textarea>
+                <button class="add-comment-btn" onclick="addComment()">Submit Comment</button>
+            </div>
+        </div>
+
+        <div class="sidebar-right">
+            <h3>Other posts under Pre-Enlistment</h3>
+            <ul>
+                <li class="divider"><span></span></li>
+                <li><a href="pre-enlist2.html">What is Pre-Enlistment?</a></li>
+                <li><a href="#">Deadline</a></li>
+                <li><a href="#">Why does it say that Facility is no longer available?</a></li>
+            </ul>
+        </div>
+
+        <script src="main-script.js"> </script>
+        <script>check_login_account_toggle()</script>
+        
+</body>
+

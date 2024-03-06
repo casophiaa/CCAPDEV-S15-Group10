@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Lasallian EduConnect Hub</title>
+    <link rel="stylesheet" href="styles-postpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://kit.fontawesome.com/efbf6e3944.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!-- Changed this whole div -->
+        <div class="header-container">
+            <div class="logo-group">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Website Logo">
+                </div>
+                <div class="name-logo">
+                    <img src="images/Name-logo.png" alt="Name Logo">
+                </div>
+            </div>
+            <div class="login">
+                <button class="login-button" id="loginButton" onclick="window.location.href='login.html'">Login</button>
+            </div>
+        </div>
+        <!-- Edits end here -->
+    </header>
+
+        <div class="sidebar">
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home"></i> Home </a></li>
+                <!-- Added an ID for this link (for toggle feature) -->
+                <li><a id="accountButton" href="profile.html"><i class="fa fa-user"></i> Account </a></li>
+
+                <li class="divider"><span></span></li>
+
+                <li><a href="pre-enlist.html"><i class="fa fa-list"></i> Pre-Enlistment Community </a></li>
+                <li><a href="enlistment.html"><i class="fa fa-list"></i> Enlistment Community </a></li>
+                <li><a href="student-concerns.html"><i class="fa fa-comments"></i> Student Concern Threads </a></li>
+
+                <li class="divider"><span></span></li>
+
+                <li><a href="about.html"><i class="fa fa-address-card"></i> About us </a></li>
+                <li><a href="contact.html"><i class="fa fa-phone"></i> Contact us </a></li>
+            </ul>
+        </div>
+
+        <div class="divider"> </div>
+
+        <div class="main-content">
+            <div class="page-header">
+                <img src="images/pre-enlist header.png" alt="Header">
+                <div class="text-overlay">
+                <h2>Student Concerns</h2>
+                </div>
+            </div>
+
+            <!-- Create Post button -->
+            <a href="create-post.html" id="create-post-button">
+                <i class="fa-solid fa-pen"></i>
+            </a>
+            
+        </div>
+
+        <div class="post-container">
+            <!-- Post 1 -->
+            <a href="student-concerns1.html" class="post-link">
+                <div class="post">
+                    <div class="post-header">
+                        <h2>LF CSARCH1 Study Group</h2>
+                    </div>
+                    <div class="post-content">
+                        <p>I am an ID 122 student taking BSCS-NIS. I'm looking for some people to study with for the upcoming CSARCH1 exam next week :D</p>
+                    </div>
+                    <div class="post-actions">
+                        <div class="vote-container">
+                            <upvote class="fa fa-arrow-up"> 5</upvote>
+                        </div>
+                        <div class="vote-container">
+                            <downvote class="fa fa-arrow-down"> 0</downvote>
+                        </div>
+                        <div class="vote-container">
+                            <comment class="fa fa-comment"> 1</comment>
+                        </div>
+                        <div class="vote-container">
+                            <share class="fa fa-share"> 1</share>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="post-container">
+            <!-- Post 2 -->
+            <a href="student-concerns2.html" class="post-link">
+                <div class="post">
+                    <div class="post-header">
+                        <h2>Any good places to study? </h2>
+                    </div>
+                    <div class="post-content">
+                        <p> Hello po! Anyone have recos for great spots to study and chill? <p>
+                    </div>
+                    <div class="post-actions">
+                        <div class="vote-container">
+                            <upvote class="fa fa-arrow-up"> 7</upvote>
+                        </div>
+                        <div class="vote-container">
+                            <downvote class="fa fa-arrow-down"> 0</downvote>
+                        </div>
+                        <div class="vote-container">
+                            <comment class="fa fa-comment"> 3</comment>
+                        </div>
+                        <div class="vote-container">
+                            <share class="fa fa-share"> 0</share>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    <div class="post-container">
+        <!-- Post 3 -->
+        <a href="pre-enlist3.html" class="post-link">
+            <div class="post">
+                <div class="post-header">
+                    <h2>cheap food in dlsu</h2>
+                </div>
+                <div class="post-content">
+                    <p> i'm on a tight budget so does anyone know some good cheap food joints around DLSU? around less than 150 pesos 
+                        or something. thanks! </p>
+                </div>
+                <div class="post-actions">
+                    <div class="vote-container">
+                        <upvote class="fa fa-arrow-up"> 10</upvote>
+                    </div>
+                    <div class="vote-container">
+                        <downvote class="fa fa-arrow-down"> 3</downvote>
+                    </div>
+                    <div class="vote-container">
+                        <comment class="fa fa-comment"> 3</comment>
+                    </div>
+                    <div class="vote-container">
+                        <share class="fa fa-share"> 1</share>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="post-container">
+        <!-- Post 4 -->
+        <a href="pre-enlist4.html" class="post-link">
+            <div class="post">
+                <div class="post-header">
+                    <h2>Building Abbreviations </h2>
+                </div>
+                <div class="post-content">
+                    <p>ID123 student here! Just want to ask about what the abbreviations for the buildings in DLSU mean hehe :></p>
+                </div>
+                <div class="post-actions">
+                    <div class="vote-container">
+                        <upvote class="fa fa-arrow-up"> 12</upvote>
+                    </div>
+                    <div class="vote-container">
+                        <downvote class="fa fa-arrow-down"> 1</downvote>
+                    </div>
+                    <div class="vote-container">
+                        <comment class="fa fa-comment"> 5</comment>
+                    </div>
+                    <div class="vote-container">
+                        <share class="fa fa-share"> 2</share>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <script src="main-script.js"> </script>
+    <script>check_login_account_toggle()</script>
+            
+</body>
+</html>
+
