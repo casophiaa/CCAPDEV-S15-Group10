@@ -9,8 +9,9 @@ Introduction
 
 Setting up the app:
 1. Upon pulling the source code from the folder called 'MCO-Phase 2' if download from repo or 'CCAPDEV-Phase2-Group10' if from AnimoSpace, run the command 'npm init -y' on the project's root directory.
-2. Once the package details are shown, run 'node index.js' and wait till the 'Server is running' is shown on the terminal, indicating that the server is up and running. 
-3. Go to your web browser and type in 'localhost:3000' to access the application.
+2. Once the package details are shown, run 'node index.js' and wait till the 'Server is running' is shown on the terminal, indicating that the server is up and running.
+3. import MCO.users.json, MCO.posts.json, and MCO.comments.json to MongoDB Compass to a database called MCO.
+4. Go to your web browser and type in 'localhost:3000' to access the application.
  
 Current features: 
 1. sign-up: requires email, last name, first name, username, and password.
