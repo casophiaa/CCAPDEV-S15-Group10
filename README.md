@@ -10,7 +10,7 @@ Introduction
 Setting up the app:
 1. run mongodb in the terminal with the use of sudo.
 2. import all json files located in MCO2 Sample Documents to MongoDB Compass to a database called MCO.
-3. Upon pulling the source code from the folder called 'MCO-Phase 2' if download from repo or 'CCAPDEV-Phase2-Group10' if from AnimoSpace, run the command 'npm init -y' on the project's root directory.
+3. Upon pulling the source code from the folder called 'CCAPDEV-Phase2-Group10', run the command 'npm init -y' on the project's root directory.
 4. Once the package details are shown, run 'node index.js' and wait till the 'Server is running' is shown on the terminal, indicating that the server is up and running.
 5. Go to your web browser and type in 'localhost:3000' to access the application.
  
